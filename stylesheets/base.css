@@ -1,0 +1,38 @@
+/* GENERAL TEXT */
+
+p, h1 {
+  margin: 1rem 0;
+}
+body {
+  line-height: 1.25;
+}
+h1 {
+  font-size: 2rem;
+}
+
+/* KAITLYN AND MATT*/
+
+body {
+  background: url(../images/map.jpg);
+  background-size: cover;
+  background-position: 50% 0;
+}
+main {
+  display: block;
+  max-width: 500px;
+  padding: 0 2.5%;
+  margin: 1em auto;
+}
+#engagement-photo {
+  width: 250px;
+  max-width: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+#kaitlyn-and-matt {
+  text-align: center;
+}
+#date-and-place {
+  text-align: center;
+}
