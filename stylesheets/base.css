@@ -71,6 +71,34 @@ section {
   overflow: auto;
 }
 
+/* CONDENSED HEADER */
+
+#map-condensed {
+  background: url(../images/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 18%;
+}
+.condensed-manager {
+  display: block;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 2.5% 2.5%;
+  border: none;
+}
+#map-condensed #engagement-photo {
+  width: 50px;
+  max-width: 35%;
+  display: inline-block;
+  margin: 0 2.5% 0 0;
+  vertical-align: middle;
+}
+#map-condensed #kaitlyn-and-matt {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0;
+  vertical-align: middle;
+}
 
 /* THE WEDDING WEEKEND */
 
