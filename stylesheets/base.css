@@ -1,39 +1,63 @@
 /* GENERAL TEXT */
 
-p, h1 {
+p, h1, h2, h3 {
   margin: 1rem 0;
 }
 body {
   line-height: 1.25;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 h1 {
   font-size: 2rem;
 }
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
 
-/* KAITLYN AND MATT*/
+/* KAITLYN AND MATT */
 
-.map {
+#map {
   background: url(../images/map.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0;
-  padding: 1em 0;
 }
-.welcome {
-  max-width: 500px;
-  padding: 0 2.5%;
-  margin: 1em auto;
+#map .height-manager {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: auto;
 }
 #engagement-photo {
-  width: 250px;
-  max-width: 50%;
+  width: 200px;
+  max-width: 35%;
   border-radius: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 3.5% auto;
+  border: 2px solid white;
+  box-shadow: black 0 0 2px;
 }
 #kaitlyn-and-matt {
-  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.0625em;
+  color: white;
+  text-shadow: black 0px 0px 2px;
+  font-weight: 400;
+  margin: 3.5% 0;
 }
 #date-and-place {
-  text-align: center;
+  color: white;
+  text-shadow: black 0 0 2px;
+  margin: 3.5% 0;
+  margin-bottom: 7%;
+  font-weight: 400;
+}
+section {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 2.5%;
 }
