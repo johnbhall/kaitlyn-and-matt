@@ -1,6 +1,6 @@
 /* GENERAL TEXT */
 
-p, h1, h2, h3 {
+p, h1, h2, h3, ul {
   margin: 1rem 0;
 }
 body {
@@ -20,6 +20,9 @@ h3 {
 }
 em {
   font-weight: 400;
+}
+dd {
+  margin-bottom: 0.5rem;
 }
 
 /* KAITLYN AND MATT */
@@ -124,6 +127,13 @@ section {
 .coming-soon {
   font-style: italic;
 }
+
+/* WASHINGTON, D.C. */
+
+.quick-note {
+  font-style: italic;
+}
+
 /* FOOTER */
 
 footer {
