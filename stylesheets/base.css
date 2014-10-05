@@ -124,3 +124,10 @@ section {
 .coming-soon {
   font-style: italic;
 }
+/* FOOTER */
+
+footer {
+  max-width: 940px;
+  margin: 0 auto 3em auto;
+  padding: 1em 2.5%;
+}
