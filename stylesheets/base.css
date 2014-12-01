@@ -21,8 +21,14 @@ h3 {
 em {
   font-weight: 400;
 }
+dt {
+  font-weight: bold;
+}
 dd {
-  margin-bottom: 0.5em;
+  margin: 0 0 1em 1em;
+}
+time {
+  text-decoration: underline;
 }
 
 /* KAITLYN AND MATT */
