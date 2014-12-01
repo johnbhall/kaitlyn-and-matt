@@ -66,9 +66,15 @@ dd {
 section {
   max-width: 940px;
   margin: 0 auto;
-  padding: 1em 2.5%;
   border-bottom: 1px solid #ccc;
   overflow: auto;
+}
+.inner {
+  margin: 0 2.5% 2.5% 2.5%;
+  padding: 1% 2.5%;
+  background: white;
+  overflow: auto;
+  border-radius: 5px;
 }
 
 /* CONDENSED HEADER */
