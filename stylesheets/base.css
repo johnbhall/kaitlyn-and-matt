@@ -1,12 +1,17 @@
 /* GENERAL TEXT */
 
-p, h1, h2, h3, ul {
+p, h1, h2, h3, h4, ul {
   margin: 1em 0;
 }
 body {
   line-height: 1.25;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  background: url(../images/map-with-labels.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  background-attachment: fixed;
 }
 h1 {
   font-size: 2em;
@@ -16,6 +21,10 @@ h2 {
 }
 h3 {
   font-size: 1.25em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1em;
   font-weight: 400;
 }
 em {
@@ -31,14 +40,37 @@ time {
   text-decoration: underline;
 }
 
+/* NAV */
+nav {
+  display: block;
+  background: rgba(255,255,255,0.85);
+  margin-bottom: 1em;
+}
+nav ul {
+  display: block;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav li {
+  display: inline;
+}
+nav li a:link,
+nav li a:visited,
+nav li a:hover,
+nav li a:active {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em;
+  font-weight: 400;
+  color: #1f168b;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+
 /* KAITLYN AND MATT */
 
-#map {
-  background: url(../images/map-with-labels.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 0;
-}
 #map .height-manager {
   max-width: 1000px;
   text-align: center;
@@ -66,13 +98,12 @@ time {
   color: white;
   text-shadow: black 0 0 2px;
   margin: 3.5% 0;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
   font-weight: 400;
 }
 section {
-  max-width: 940px;
+  max-width: 1000px;
   margin: 0 auto;
-  border-bottom: 1px solid #ccc;
   overflow: auto;
 }
 .inner {
