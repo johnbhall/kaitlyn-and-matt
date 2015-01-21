@@ -166,8 +166,17 @@ section {
 
 /* GIFT REGISTRY */
 
-.coming-soon {
-  font-style: italic;
+.registries li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0.5em 1.5em 0;
+}
+.registries li a {
+  display: block;
+}
+.registries img {
+  width: 200px;
+  border: 1px solid #ccc;
 }
 
 /* WASHINGTON, D.C. */
